@@ -34,26 +34,35 @@ code {
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2),-4px -4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.image-con{
+  width: 15rem;
+  height: 15rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
 .card-image{
-  height: 6rem;
-  width: 6rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   border-radius: 50%;
 }
 
 .card-name{
   font-size: 1rem;
   text-transform: uppercase;
+  color: rgb(7, 102, 102);
 }
 
 .card-title{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
 .review-text{
   font-size: 1rem;
   line-height: 1.5rem;
+  color: gray;
 }
 
 .btn{
@@ -69,4 +78,5 @@ button{
   border: none;
   padding: 0.3rem 0.5rem;
   border-radius: 5px;
+  cursor: pointer;
 }

@@ -4,7 +4,9 @@ export default function Card(props){
     const {name, job, image, text} = props.reviewData
     return (
         <div className='card'>
-            <img src={image} alt='review pic' className='card-image'/>
+            <div className='image-con'>
+            <img src={image} alt='review pic' className='card-image'/> 
+            </div>
             <p className='card-name'>{name}</p>
             <p className='card-title'>{job}</p>
             <p className='review-text'>{text}</p>
